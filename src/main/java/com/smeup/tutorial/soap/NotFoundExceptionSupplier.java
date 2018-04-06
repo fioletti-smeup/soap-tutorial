@@ -2,8 +2,6 @@ package com.smeup.tutorial.soap;
 
 import java.util.function.Supplier;
 
-import javax.ws.rs.NotFoundException;
-
 public class NotFoundExceptionSupplier implements Supplier<NotFoundException> {
 
     private final String msg;
